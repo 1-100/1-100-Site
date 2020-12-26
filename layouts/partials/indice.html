@@ -1,0 +1,23 @@
+<!-- Seção Indice -->
+<section id="indice" class="secao indice"  >
+  {{ range where .Pages "Section" "formas" }}
+    {{ range .Pages.ByTitle }}
+
+      <div class="item {{range .Params.Plataformas}} {{ . | urlize }}{{end}}">
+        <article class="forma">
+          <div class="capa"><img src="formas/{{.Title}}/thumb.png" alt=""></div>
+          <div class="info">
+            <header><span class="codigo">{{.Title}}</span></header>
+            <p class="descricao">{{.Params.Descricao | truncate 140}}</p>
+            <div class="abrir"><a href="{{.Permalink}}" class="botao">Visualizar</a></div>
+            <footer>
+              <p class="autoria">{{range .Params.Autorias}} <span>{{ . }}</span>{{end}}</p>
+              <p class="plataforma" >{{range .Params.Plataformas}} <span>{{ . }}</span>{{end}}</p>
+            </footer>
+          </div>
+        </article>
+      </div>
+
+    {{ end }}
+  {{ end }}
+  </section>

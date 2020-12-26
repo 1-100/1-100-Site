@@ -2,43 +2,9 @@
 <div class="conteudo">
   {{.Content}}
 
-  <!-- Seção Filtros -->
-  <section id="filtros" class="secao filtros">
-    <h2>Filtros</h2>
-    <div class="filtro">
-      <h2>Plataformas</h2>
-      <ul class="lista-filtros">
-        <li><button class="botao ativo" data-filter="todas">Todas</button></li>
-        {{ range .Site.Taxonomies.plataformas }}
-          <li><button class="botao" data-filter="{{.Page.Title | urlize }}">{{.Page.Title}} ({{ .Count }})</button></li>
-        {{ end }}
-      </ul>
-    </div>
-  </section>
+  <!-- {{ partial "filtros.html" . }} -->
   
-  <!-- Seção Indice -->
-  <section id="indice" class="secao indice"  >
-  {{ range where .Pages "Section" "formas" }}
-    {{ range .Pages.ByTitle }}
-
-      <div class="item {{range .Params.Plataformas}} {{ . | urlize }}{{end}}">
-        <article class="forma">
-          <div class="capa"><img src="formas/{{.Title}}/thumb.png" alt=""></div>
-          <div class="info">
-            <header><span class="codigo">{{.Title}}</span></header>
-            <p class="descricao">{{.Params.Descricao | truncate 140}}</p>
-            <div class="abrir"><a href="{{.Permalink}}" class="botao">Visualizar</a></div>
-            <footer>
-              <p class="autoria">{{range .Params.Autorias}} <span>{{ . }}</span>{{end}}</p>
-              <p class="plataforma" >{{range .Params.Plataformas}} <span>{{ . }}</span>{{end}}</p>
-            </footer>
-          </div>
-        </article>
-      </div>
-
-    {{ end }}
-  {{ end }}
-  </section>
+  <!-- {{ partial "indice.html" . }} -->
 
 </div>
 {{end}}

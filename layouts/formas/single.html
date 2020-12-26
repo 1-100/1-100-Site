@@ -17,7 +17,7 @@
           {{range .Params.autorias_url}}<p>Link: <a href="{{ . }}">{{ . }}</a></p>{{end}}
         </div>
         <div class="plataformas">
-          <p>Plataforma: {{range .Params.Plataformas}}<a href="/?filtro={{ . | urlize }}" class="botao">{{ . }}</a>{{end}}</p>
+          <p>Plataforma:{{range .Params.Plataformas}} <a href="/?filtro={{ . | urlize }}" class="botao">{{ . }}</a>{{end}}</p>
        </div>
     </footer>
   </div>

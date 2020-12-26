@@ -1,0 +1,13 @@
+<!-- Seção Filtros -->
+<section id="filtros" class="secao filtros">
+  <h2>Filtros</h2>
+  <div class="filtro">
+    <h2>Plataformas</h2>
+    <ul class="lista-filtros">
+      <li><button class="botao ativo" data-filter="todas">Todas</button></li>
+      {{ range .Site.Taxonomies.plataformas }}
+        <li><button class="botao" data-filter="{{.Page.Title | urlize }}">{{.Page.Title}} ({{ .Count }})</button></li>
+      {{ end }}
+    </ul>
+  </div>
+</section>
