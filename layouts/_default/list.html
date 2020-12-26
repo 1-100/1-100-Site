@@ -1,0 +1,10 @@
+{{ define "main" }}
+<div class="conteudo">
+  template lista
+  {{ range .Pages }}
+
+    <div class="abrir"><a href="{{.Permalink}}" class="botao">{{.Title}}</a></div>
+
+  {{ end }}
+</div>
+{{end}}

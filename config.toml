@@ -1,0 +1,10 @@
+baseURL = "https://1-100.github.io/"
+languageCode = "pt-br"
+title = "100 formas de contar de 1 a 100 utilizando programação"
+[taxonomies]
+  autoria = "autorias"
+  plataforma = "plataformas"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

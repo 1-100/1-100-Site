@@ -1,0 +1,34 @@
+{{ define "main" }}
+
+{{ $id := .Title }}
+
+<div class="secao colunas forma-introducao">
+  <div class="coluna">
+    <header>
+      <h2>{{.Title}}</h2>
+      <a href="{{.Params.Codigo}}" class="botao">Acessar código</a>
+    </header>
+    
+      <p>{{.Params.Descricao}}</p>
+      {{.Content}}
+      <footer>
+        <div class="creditos">
+          {{range .Params.Autorias}}<p>Autoria: {{ . }}</p>{{end}}
+          {{range .Params.autorias_url}}<p>Link: <a href="{{ . }}">{{ . }}</a></p>{{end}}
+        </div>
+        <div class="plataformas">
+          <p>Plataforma: {{range .Params.Plataformas}}<a href="/?filtro={{ . | urlize }}" class="botao">{{ . }}</a>{{end}}</p>
+       </div>
+    </footer>
+  </div>
+  <div class="coluna">
+    <div class="thumb"><figure><img src="/formas/{{ $id }}/thumb.gif" alt="Animação com alguns passos da contagem de 1 a 100"></figure></div>
+  </div>
+</div>
+<section class="secao galeria">
+  {{ range $i, $sequence :=  (seq 100) }}
+     <div class="item"><figure><img src="/formas/{{ $id }}/{{ $sequence }}.png"><figcaption>{{ $sequence }}</figcaption></figure></div>
+  {{ end }}
+</section>
+
+{{end}}
