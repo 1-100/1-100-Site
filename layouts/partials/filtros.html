@@ -6,7 +6,7 @@
     <ul class="lista-filtros">
       <li><button class="botao ativo" data-filter="todas">Todas</button></li>
       {{ range .Site.Taxonomies.plataformas }}
-        <li><button class="botao" data-filter="{{.Page.Title | urlize }}">{{.Page.Title}} ({{ .Count }})</button></li>
+        <li><button class="botao" data-filter="{{.Page.Title | urlize }}">{{.Page.Title}}({{ .Count }})</button></li>
       {{ end }}
     </ul>
   </div>

@@ -32,9 +32,10 @@ Basicamente essa licença permite que você utilize qualquer conteúdo desse sit
 
 ## Repositório
 
-Todo os arquivos desse projeto estão disponiveis em nosso repositório: [www.github.com/s/ss/s/ss](www.github.com/s/ss/s/ss)
 
-Caso utilize alguns desses códigos para um projeto pessoal, se possível cite us autores.
+Todo o material deste projeto esta licenciado com a [MIT License](https://github.com/1-100/1-100-Site/blob/main/LICENSE) de livre uso.
+
+Caso utilize alguns desses códigos em algum projeto, se possível compartilhe com a mesma licença e cite este projeto.
 
 {{% /coluna %}}
 
