@@ -17,8 +17,9 @@ jobs:
         submodules: true
 
     - name: Hugo Deploy GitHub Pages
-      uses: benmatselby/hugo-deploy-gh-pages@master
+      uses: benmatselby/hugo-deploy-gh-pages@v1.6.0
       env:
         HUGO_VERSION: 0.79.1
         TARGET_REPO: 1-100/1-100.github.io
         TOKEN: ${{ secrets.HUGO_TOKEN }}
+
