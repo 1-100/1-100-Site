@@ -7,6 +7,8 @@ draft: false
 {{< secao >}}
 
 {{% coluna %}}
+
+O ato de programar normalmente é associado a projetos e ideias complexas. Porém programar pode ser entendio como uma prática qualquer como: escrever, desenhar, cantar, correr, etc.
     
 Uma das coisas mais díficil ao se aprender algo novo é a constância. 
 
