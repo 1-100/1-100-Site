@@ -1,5 +1,4 @@
 name: Build and Deploy
-
 on:
   push:
     branches:
@@ -7,11 +6,10 @@ on:
 
 jobs:
   build:
-
+    name: Deploy
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout master
+    - name: Checkout main
       uses: actions/checkout@v1
       with:
         submodules: true
@@ -21,5 +19,6 @@ jobs:
       env:
         HUGO_VERSION: 0.79.1
         TARGET_REPO: 1-100/1-100.github.io
+        TARGET_BRANCH: main
         TOKEN: ${{ secrets.HUGO_TOKEN }}
 
