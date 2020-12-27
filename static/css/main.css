@@ -48,12 +48,16 @@ html, body {
 
 h1, h2 {
   font-family: var(--fonte-principal);
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: normal;
   margin: 3rem 0 1rem 0;
   max-width: 30ch;
   line-height: 1.2em;
   text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.5rem;
 }
 
 h1:first-child,
@@ -63,7 +67,7 @@ h2:first-child {
 
 h3 {
   font-family: var(--fonte-principal);
-  font-size: 0.5rem;
+  font-size: 1em;
   font-weight: normal;
   text-transform: uppercase;
   margin: 0;
@@ -90,9 +94,23 @@ ol {
   padding-left: 1em;
 }
 
-ul li, 
+ul li,
 ol li {
   margin-bottom: 1em;
+}
+
+ul li ul {
+  margin-top: 1rem;
+}
+
+ul li ul li {
+  margin-bottom: 0;
+}
+
+li strong {
+  font-family: var(--fonte-principal);
+  font-weight: normal;
+  text-transform: uppercase;
 }
 
 blockquote {
@@ -129,6 +147,10 @@ blockquote {
 .cabecalho {
   display: block;
   margin-bottom: 8rem;
+}
+
+.cabecalho h1 {
+  font-size: 1rem;
 }
 
 .menu-principal ul {
@@ -333,6 +355,7 @@ blockquote {
 
 .forma-introducao .thumb figure {
   margin: 0;
+  border: 1px solid var(--cor-principal)
 }
 
 .forma-introducao .thumb img {

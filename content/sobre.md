@@ -8,20 +8,11 @@ draft: false
 
 {{% coluna %}}
 
-O ato de programar normalmente é associado a projetos e ideias complexas. Porém programar pode ser entendio como uma prática qualquer como: escrever, desenhar, cantar, correr, etc.
-    
-Uma das coisas mais díficil ao se aprender algo novo é a constância. 
+Muita vezes ao pensar em programação, imaginamos projetos que tem uma grande complexidade ou que terão uma utilidade muito pragmática. Mas programar também pode ser uma maneira de expressar pequenas ideias, experimentar e se divertir.
 
+O principal objetivo desse projeto é promover através de um exercício simples que as pessoas experimentem, pratiquem e explorem as possibilidades de programar sem grandes compromissos.
 
-Um pensamento comum ao começar aprender a programar é que as coisas são complexas demais e que nunca vamos conseguir fazer algo que achemos legal.
-
-Outro pensamento comum é de que para programar é preciso ter uma utilidade pragmática daquele código ou então que apenas pessoas da áreas computacionais podem usufruir da programação.
-
-Programar é como escrever, desenhar, cantar, correr, é uma prática.
-
-O principal objetivo desse projeto é promover através de um exercício simples que as pessoas experimentem, pratiquem e explorem as possibilidades de programar.
-
-Reorganizar e melhorar esse texto
+Este projeto é uma iniciativa pessoal de [Guilherme Vieira](https://guilhermevieira.info), contou com opiniões e contribuições de amigos e da comunidade [Mastodon(te)](https://masto.donte.com.br) e é uma expansão do projeto [10 formas de contar de 1 – 10](https://www.norte.in/produto/01-10/).
 
 {{% /coluna %}}
 
