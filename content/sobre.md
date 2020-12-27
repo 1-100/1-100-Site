@@ -37,6 +37,9 @@ Caso utilize alguns desses códigos em algum projeto, se possível compartilhe c
 
 Para melhorar a organização do projeto foram criados uma série de repositórios e todos eles podem ser acessados no [GitHub](Github.com/1-100/)
 
+## Site
+
+Este site foi construído usando o gerador de sites estáticos [Hugo](https://gohugo.io/) e com as fontes [Necto Mono](http://collletttivo.it/) e [Noto Serif](https://fonts.google.com/specimen/Noto+Serif).
 
 {{% /coluna %}}
 

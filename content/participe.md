@@ -25,14 +25,10 @@ Crie um arquivo compactado contendo:
 1. Todas as 100 imagens geradas pelo seu código;
 2. Os arquivos originais do seu código;
 3. Um arquivo de texto contendo as informações:
-- Nome
-- Um link para site pessoal, ou rede social
+- Seu nome
+- Um link de sua preferência: site pessoal, rede social, github, etc. (Opcional)
 - Texto em até 300 caracteres descrevendo o que seu código faz
 
-{{% /coluna %}}
-
-{{% coluna %}}
-    
 {{% /coluna %}}
 
 {{< /secao >}}
@@ -48,6 +44,10 @@ As duas primeiras formas de contar pode servir de exemplo, e você pode baixa-la
 
 [Forma 001](#)
 [Forma 002](#)
+
+Você também pode baixar um modelo de entrega no seguinte link:
+
+[Modelo de entrega]()
 
 Caso sua dúvida seja outra, entre contato manda um e-mail para: 1-100@guilhermevieira.info.
 

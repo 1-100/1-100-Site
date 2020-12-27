@@ -15,7 +15,7 @@
   --cor-principal: #000;
   --cor-secundaria: greenyellow;
   --fonte-principal: 'Necto-Mono', sans-serif;
-  --fonte-secundaria: 'Georgia', serif;
+  --fonte-secundaria: 'Noto Serif', serif;
   --fonte-grande: 1.5rem;
   --fonte-normal: 1rem;
   --fonte-pqn: 0.8rem;
@@ -34,26 +34,31 @@ img {
 
 html, body {
   font-family: var(--fonte-secundaria);
-  font-size: 24px;
+  font-size: 22px;
   color: var(--cor-principal);
   background-color: var(--cor-secundaria);
   line-height: 1.2em;
 }
 
 .pagina {
-  padding: 1rem;
+  padding: 1rem 2rem;
   max-width: 1400px;
   margin: auto;
 }
 
 h1, h2 {
   font-family: var(--fonte-principal);
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: normal;
-  margin: 0 0 1rem 0;
+  margin: 3rem 0 1rem 0;
   max-width: 30ch;
-  line-height: 1.2rem;
+  line-height: 1.2em;
   text-transform: uppercase;
+}
+
+h1:first-child,
+h2:first-child {
+  margin-top: 0;
 }
 
 h3 {
@@ -80,6 +85,16 @@ p {
   margin-top: 0;
 }
 
+ul, 
+ol {
+  padding-left: 1em;
+}
+
+ul li, 
+ol li {
+  margin-bottom: 1em;
+}
+
 blockquote {
   padding: 0;
   margin: 0;
@@ -89,15 +104,16 @@ blockquote {
 
 .botao {
   font-family: var(--fonte-principal);
-  font-size: 0.65rem;
+  font-size: 0.8rem;
   border: 1px solid var(--cor-principal);
   border-radius: 1rem;
   background-color: transparent;
-  padding: 0 1rem;
+  padding: 0 0.9rem 0 1rem;
   text-transform: uppercase;
   text-decoration: none;
   transition: background-color .2s ease-in-out;
   display: inline-block;
+  height: 1.25rem;
 }
 
 .botao:hover,
@@ -161,7 +177,7 @@ blockquote {
 }
 
 .conteudo.simples header h1 {
-
+  font-size: 2rem;
 }
 
 /* Filtros */
@@ -286,22 +302,33 @@ blockquote {
   text-align: center;
 }
 
-/* Forma introdução */
+/* Forma Aberta */
 
 .forma-introducao header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 2rem;
 }
 
 .forma-introducao header h2 {
   margin: 0;
+  font-size: 2rem;
 }
 
 .forma-introducao footer {
   font-family: var(--fonte-principal);
   font-size: 0.65rem;
   text-transform: uppercase;
+}
+
+.forma-introducao footer p {
+  margin-bottom: 0.4em;
+  line-height: 1.2em;
+}
+
+.forma-introducao footer p a {
+  font-size: 1em;
 }
 
 .forma-introducao .thumb figure {
@@ -361,4 +388,11 @@ blockquote {
 .galeria figure figcaption:hover,
 .galeria figure figcaption:focus {
   opacity: 1;
+}
+
+/* Rodape */
+
+.rodape {
+  margin-top: 8rem;
+ 
 }
