@@ -20,19 +20,20 @@ Você pode enviar mais de uma forma, só lembre de fazer um arquivo compactado p
 
 ## Conteúdo que deve ser enviado
 
-Crie um arquivo compactado contendo:
+Crie um arquivo compactado contendo as seguintes pastas e arquivos:
 
-1. Todas as 100 imagens geradas pelo seu código;
-2. Os arquivos originais do seu código;
-3. Um arquivo de texto contendo as informações:
-- Nome
-- Um link para site pessoal, ou rede social
-- Texto em até 300 caracteres descrevendo o que seu código faz
+- **Pasta codigo:** Todos os arquivos originais do seu código.
+- **Pasta imagens:** Todas as 100 imagens geradas pelo seu código.
+- **Arquivo infos.txt:** Um arquivo de texto simples contendo as informações:
+  - Seu nome ou como preferir se identificar.
+  - Caso queira divulgar seu trabalho, um link de sua preferência: site pessoal, rede social, github, etc.
+  - Texto em até 300 caracteres descrevendo o que seu código faz.
 
-{{% /coluna %}}
+Você também pode baixar um modelo de entrega no seguinte link:
 
-{{% coluna %}}
-    
+
+{{< botao "Modelo de entrega" "https://github.com/1-100/1-100-Contribuicoes/raw/main/000-Modelo/Modelo.zip" >}}
+
 {{% /coluna %}}
 
 {{< /secao >}}
@@ -46,8 +47,9 @@ Crie um arquivo compactado contendo:
 
 As duas primeiras formas de contar pode servir de exemplo, e você pode baixa-las no link abaixo:
 
-[Forma 001](#)
-[Forma 002](#)
+[Forma 001](/001)
+
+[Forma 002](/002)
 
 Caso sua dúvida seja outra, entre contato manda um e-mail para: 1-100@guilhermevieira.info.
 
