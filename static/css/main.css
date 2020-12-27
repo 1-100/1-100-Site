@@ -342,6 +342,7 @@ blockquote {
   font-family: var(--fonte-principal);
   font-size: 0.65rem;
   text-transform: uppercase;
+  margin-bottom: 2rem;
 }
 
 .forma-introducao footer p {
@@ -372,12 +373,12 @@ blockquote {
 
 .galeria .item {
   padding: 0 0.5rem;
-  max-width: calc(100% / 3);
+  max-width: calc(100% / 2);
  }
 
 @media screen and (min-width: 700px) {
   .galeria .item {
-    max-width: calc(100% / 5);
+    max-width: calc(100% / 4);
   }
 }
 
