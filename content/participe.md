@@ -45,12 +45,6 @@ Você também pode baixar um modelo de entrega no seguinte link:
 
 ## Ficou com dúvida?
 
-As duas primeiras formas de contar pode servir de exemplo, e você pode baixa-las no link abaixo:
-
-[Forma 001](/001)
-
-[Forma 002](/002)
-
 Caso sua dúvida seja outra, entre contato manda um e-mail para: 1-100@guilhermevieira.info.
 
 {{% /coluna %}}
