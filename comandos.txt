@@ -1,0 +1,7 @@
+// Cria um gif utilizando o Magick
+
+magick convert -delay 20 -loop 0 +dither -colors 16 10.jpg 20.jpg 30.jpg 40.jpg 50.jpg 60.jpg 70.jpg 80.jpg 90.jpg 100.jpg thumb.gif
+
+// Optimiza o gif com o gifsicle
+
+gifsicle -O3 thumb.gif -o thumb-optimized.gif
