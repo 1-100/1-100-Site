@@ -31,8 +31,11 @@ Crie um arquivo compactado contendo as seguintes pastas e arquivos:
 
 Você também pode baixar um modelo de entrega no seguinte link:
 
-
 {{< botao "Modelo de entrega" "https://github.com/1-100/1-100-Contribuicoes/raw/main/000-Modelo/Modelo.zip" >}}
+
+## Importante
+
+Ao enviar seu código você concorda em disponibiliza-lo com uma licença de uso livre [MIT License](https://github.com/1-100/1-100-Site/blob/main/LICENSE).
 
 {{% /coluna %}}
 
@@ -45,7 +48,7 @@ Você também pode baixar um modelo de entrega no seguinte link:
 
 ## Ficou com dúvida?
 
-Caso sua dúvida seja outra, entre contato manda um e-mail para: 1-100@guilhermevieira.info.
+Caso tenha alguma dúvida entre contato manda um e-mail para: 1-100@guilhermevieira.info.
 
 {{% /coluna %}}
 
