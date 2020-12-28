@@ -34,10 +34,16 @@ img {
 
 html, body {
   font-family: var(--fonte-secundaria);
-  font-size: 22px;
+  font-size: 16px;
   color: var(--cor-principal);
   background-color: var(--cor-secundaria);
   line-height: 1.2em;
+}
+
+@media screen and (min-width: 700px) {
+  html, body {
+    font-size: 24px;
+  }
 }
 
 .pagina {
@@ -126,12 +132,13 @@ blockquote {
   border: 1px solid var(--cor-principal);
   border-radius: 1rem;
   background-color: transparent;
-  padding: 0 0.9rem 0 1rem;
+  padding: 0.2rem 0.9rem 0.2rem 1rem;
   text-transform: uppercase;
   text-decoration: none;
   transition: background-color .2s ease-in-out;
   display: inline-block;
-  height: 1.25rem;
+  line-height: 1em;
+  text-align: center;
 }
 
 .botao:hover,
