@@ -14,9 +14,9 @@ draft: false
 
 {{% coluna %}}
 
-Este site compila resultados da proposta aberta realizada para artistas, programadores, designers e quem tivesse em interesse em executar o seguinte exercício:
+Este site compila resultados da proposta aberta realizada para artistas, programadores, designers e quem tiver interesse em executar o seguinte exercício:
 
-Utilizando programação elaborar uma forma de visualizar uma contagem de 1 a 100.
+**Utilizando programação elaborar uma forma de visualizar uma contagem de 1 a 100.**
 
 Na listagem abaixo você pode acessar diferentes respostas a esse exercício e também baixar o código da respectiva resposta.
 

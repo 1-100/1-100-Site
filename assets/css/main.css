@@ -79,6 +79,10 @@ h3 {
   margin: 0;
 }
 
+strong {
+  font-family: var(--fonte-principal);
+  font-weight: normal;
+}
 a,
 a:visited {
   color: var(--cor-principal);

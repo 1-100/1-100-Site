@@ -8,19 +8,19 @@ draft: false
 
 {{% coluna %}}
 
-Para participar é simples, basta enviar sua forma de contar de 1 a 100 para o e-mail 1-100@guilhermevieira.info seguindo as orientações desta página.
+Para participar é simples, basta seguir as orientações desta página.
 
-Você pode enviar mais de uma forma, só lembre de fazer um arquivo compactado para cada forma.
+Você pode enviar mais de uma forma e ela pode ser feita em qualquer linguagem ou ferramenta de sua preferência. Só lembre de enviar cada um dos seus projetos separadamente.
 
 ## Código
 
-1. A sua forma de contar deverá ser visual, ou seja o resultado do código deve ser uma imagem para cada um dos valores existentes entre 1 e 100, contando o 1 e o 100;
+1. A sua forma de contar deverá ser visual, ou seja o resultado do código deve ser uma imagem para cada um dos valores existentes entre 1 e 100, incluindo o 1 e o 100;
 2. O zero não deverá ser incluso na contagem;
 3. As imagens devem ser salvas com as seguintes especificações: arquivo JPEG, em escala de cinza e com as medidas de 500x500px.
 
 ## Conteúdo que deve ser enviado
 
-Crie um arquivo compactado contendo as seguintes pastas e arquivos:
+Crie um projeto contendo as seguintes pastas e arquivos:
 
 - **Pasta codigo:** Todos os arquivos originais do seu código.
 - **Pasta imagens:** Todas as 100 imagens geradas pelo seu código.
@@ -28,6 +28,13 @@ Crie um arquivo compactado contendo as seguintes pastas e arquivos:
   - Seu nome ou como preferir se identificar.
   - Caso queira divulgar seu trabalho, um link de sua preferência: site pessoal, rede social, github, etc.
   - Texto em até 300 caracteres descrevendo o que seu código faz.
+
+## Envio
+
+Envie seu projeto compactado no formato ZIP para o e-mail:
+1-100@guilhermevieira.info
+
+## Modelo de entrega
 
 Você também pode baixar um modelo de entrega no seguinte link:
 
@@ -48,7 +55,7 @@ Ao enviar seu código você concorda em disponibiliza-lo com uma licença de uso
 
 ## Ficou com dúvida?
 
-Caso tenha alguma dúvida entre contato manda um e-mail para: 1-100@guilhermevieira.info.
+Caso tenha alguma dúvida entre contato pelo e-mail:<br> 1-100@guilhermevieira.info.
 
 {{% /coluna %}}
 
