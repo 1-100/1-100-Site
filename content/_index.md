@@ -30,13 +30,13 @@ Na listagem abaixo você pode acessar diferentes respostas a esse exercício e t
     
 ## Participe!
 
-Atualmente o site conta com {{< formas_contagem >}} formas, se você quiser participar deste projeto clique no botão abaixo para obter mais informações
-
-{{< botao "Quero Participar" "/participe" >}}
-
 {{% /coluna %}}
 
 {{% coluna %}}
+
+Atualmente o site conta com {{< formas_contagem >}} formas, se você quiser participar deste projeto clique no botão abaixo para obter mais informações
+
+{{< botao "Quero Participar" "/participe" >}}
     
 {{% /coluna %}}
 

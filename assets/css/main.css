@@ -203,6 +203,10 @@ blockquote {
   margin-bottom: 8rem;
 }
 
+.coluna {
+  margin-bottom: 3rem;
+}
+
 @media screen and (min-width: 700px) {
 
   .secao.colunas {
