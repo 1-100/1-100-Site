@@ -244,6 +244,7 @@ blockquote {
 
 .lista-filtros li {
   display: inline-block;
+  margin-bottom: 0.2rem;
 }
 
 @media screen and (min-width: 700px) {
