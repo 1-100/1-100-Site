@@ -81,3 +81,11 @@ function getParameter( parametersName ) {
   return parameters.get(  parametersName );
 }
 
+//Voltar ao topo:
+
+$(document).ready(function(){ 
+  $('#botao_topo').click(function(){
+      $("html, body").animate({ scrollTop: 0 }, 1000);
+      return false;
+  });
+});

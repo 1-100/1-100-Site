@@ -37,18 +37,20 @@ html, body {
   font-size: 16px;
   color: var(--cor-principal);
   background-color: var(--cor-secundaria);
-  line-height: 1.2em;
+  line-height: 1.2rem;
 }
 
 @media screen and (min-width: 700px) {
   html, body {
-    font-size: 24px;
+    font-size: 25px;
   }
 }
 
+
+
 .pagina {
   padding: 1rem 2rem;
-  max-width: 1400px;
+  
   margin: auto;
 }
 
@@ -136,7 +138,7 @@ blockquote {
   border: 1px solid var(--cor-principal);
   border-radius: 1rem;
   background-color: transparent;
-  padding: 0.2rem 0.9rem 0.2rem 1rem;
+  padding: 0.15rem 0.9rem 0.2rem 1rem;
   text-transform: uppercase;
   text-decoration: none;
   transition: background-color .2s ease-in-out;
@@ -153,30 +155,40 @@ blockquote {
   cursor: pointer;
 }
 
+
+
 /* Cabecalho */
 
 .cabecalho {
-  display: block;
-  margin-bottom: 8rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
 }
 
 .cabecalho h1 {
   font-size: 1rem;
+  padding-right: 1rem;
 }
 
 .menu-principal ul {
-  display: flex;
-  justify-content: space-between;
+  text-align: right;
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
+.menu-principal ul li {
+  margin-bottom: 0.5rem;
+}
+
 @media screen and (min-width: 700px) {
 
   .cabecalho {
+    
+  }
+
+  .menu-principal ul {
     display: flex;
-    justify-content: space-between;
   }
 
   .menu-principal ul li {
@@ -429,5 +441,12 @@ blockquote {
 
 .rodape {
   margin-top: 8rem;
- 
+}
+
+@media screen and (min-width: 1200px) {
+  .rodape {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
 }
