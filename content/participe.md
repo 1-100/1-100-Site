@@ -28,6 +28,7 @@ Crie um projeto contendo as seguintes pastas e arquivos:
   - Seu nome ou como preferir se identificar.
   - Caso queira divulgar seu trabalho, um link de sua preferência: site pessoal, rede social, github, etc.
   - Texto em até 300 caracteres descrevendo o que seu código faz.
+  - Qual plataforma utilizou no processo (Processing, NodeBox 3, p5.js, DrawBot, etc).
 
 ## Envio
 
