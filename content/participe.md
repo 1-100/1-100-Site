@@ -38,7 +38,7 @@ Envie seu projeto compactado no formato ZIP para o e-mail:
 
 Você também pode baixar um modelo de entrega no seguinte link:
 
-{{< botao "Modelo de entrega" "https://github.com/1-100/1-100-Contribuicoes/raw/main/000-Modelo/Modelo.zip" >}}
+{{< botao "Modelo de entrega" "https://github.com/1-100/1-100-Contribuicoes/raw/main/000-Modelo/000-Modelo.zip" >}}
 
 ## Importante
 
