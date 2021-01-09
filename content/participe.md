@@ -35,6 +35,8 @@ Crie um projeto contendo as seguintes pastas e arquivos:
 Envie seu projeto compactado no formato ZIP para o e-mail:
 1-100@guilhermevieira.info
 
+Você receberá um e-mail automático de confirmação de recebimento dentro de alguns minutos. Caso o e-mail não chegue entre contato.
+
 ## Modelo de entrega
 
 Você também pode baixar um modelo de entrega no seguinte link:
