@@ -26,7 +26,7 @@ Caso utilize alguns desses códigos em algum projeto, se possível compartilhe c
 
 ## Repositório
 
-Para melhorar a organização do projeto foram criados uma série de repositórios e todos eles podem ser acessados no [GitHub](Github.com/1-100/).
+Para melhorar a organização do projeto foram criados uma série de repositórios e todos eles podem ser acessados no [GitHub](https://github.com/1-100/).
 
 ## Site:
 
