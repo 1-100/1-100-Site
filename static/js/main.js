@@ -81,6 +81,6 @@ $(document).ready(function(){
 // Loading
 
 $(window).on('load', function(){
-  $('.preloader').toggle('slow');
+  $('.loader').addClass('esconde');
   $('.conteudo').removeClass('carregando')
 });

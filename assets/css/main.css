@@ -518,6 +518,12 @@ blockquote {
   -webkit-animation: pulse 1.5s ease-in-out infinite; /* Safari */
   animation: pulse 2s linear infinite;
   margin: 0 auto;
+  transition: all .2s ease-in-out;
+}
+
+.loader.esconde {
+  width: 0;
+  height: 0;
 }
 
 @keyframes pulse {
