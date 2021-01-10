@@ -9,6 +9,36 @@
   <link rel="stylesheet" href="{{ $style.Permalink }}">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet"> 
-  <script type="text/javascript" src="{{ `js/jquery-3.5.1.min.js` | absURL }}"></script>
+  <script>
+    // Mudar a cor do fundo
+
+function cor_fundo() {
+  let cores = [
+    'Aquamarine',
+    'Coral',
+    'Chocolate',
+    'DarkKhaki',
+    'DarkSeaGreen',
+    'DarkSalmon',
+    'DarkOrange',
+    'DarkTurquoise',
+    'Gold',
+    'IndianRed',
+    'LightCoral',
+    'LightPink',
+    'LightSalmon',
+    'MediumTurquoise',
+    'Peru',
+    'Salmon',
+    'SandyBrown',
+    'Tan',
+    'Tomato',
+    ];
+  
+  let cor = cores[Math.floor(Math.random() * cores.length)];
+  document.documentElement.style.setProperty('--cor-secundaria', cor);
+};
+cor_fundo();
+  </script>
   
 </head>

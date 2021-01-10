@@ -13,7 +13,7 @@
 
 :root {
   --cor-principal: #000;
-  --cor-secundaria: greenyellow;
+  --cor-secundaria: Aquamarine;
   --fonte-principal: 'Necto-Mono', sans-serif;
   --fonte-secundaria: 'Noto Serif', serif;
   --fonte-grande: 1.5rem;
@@ -29,7 +29,6 @@
 
 img {
   mix-blend-mode: multiply;
-  background-color: var(--cor-secundaria);
   display: block;
 }
 
@@ -465,7 +464,7 @@ blockquote {
 .slideshow img {
   max-width: 100%;
   width: 100%;
-  mix-blend-mode: multiply;
+  
 }
 
 .slideshow  figure {
@@ -493,9 +492,24 @@ blockquote {
 
 .slideshow  figure figcaption:hover,
 .slideshow  figure figcaption:focus {
-  opacity: 1;
+  /* opacity: 1; */
 }
 
 
 /* Loading */
 
+.conteudo {
+  opacity: 1;
+  transition: all 1s ease-in-out;
+  overflow: hidden;
+}
+
+.carregando {
+  opacity: 0;
+  
+}
+
+
+.preloader {
+  text-align: center;
+}

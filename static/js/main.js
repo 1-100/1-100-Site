@@ -1,32 +1,19 @@
-// Mudar a cor do fundo
 
-function cor_fundo() {
-  let cores = [
-    'Aquamarine',
-    'Coral',
-    'Chocolate',
-    'DarkKhaki',
-    'DarkSeaGreen',
-    'DarkSalmon',
-    'DarkOrange',
-    'DarkTurquoise',
-    'Gold',
-    'IndianRed',
-    'LightCoral',
-    'LightPink',
-    'LightSalmon',
-    'MediumTurquoise',
-    'Peru',
-    'Salmon',
-    'SandyBrown',
-    'Tan',
-    'Tomato',
-    ];
-  
-  let cor = cores[Math.floor(Math.random() * cores.length)];
-  document.documentElement.style.setProperty('--cor-secundaria', cor);
-};
-cor_fundo();
+
+// Slick Slider
+
+$(document).ready(function(){
+  $('.slideshow').slick({
+    autoplay: true,
+    autoplaySpeed: 30,
+    arrows: false,
+    infinite: true,
+    speed: 1,
+    fade: true,
+    cssEase: 'linear'
+  });
+});
+
 
 // Filtro
 
@@ -90,16 +77,10 @@ $(document).ready(function(){
   });
 });
 
-// Slick Slider
 
-$(document).ready(function(){
-  $('.slideshow').slick({
-    autoplay: true,
-    autoplaySpeed: 30,
-    arrows: false,
-    infinite: true,
-    speed: 1,
-    fade: true,
-    cssEase: 'linear'
-  });
+// Loading
+
+$(window).on('load', function(){
+  $('.preloader').fadeOut('slow');
+  $('.conteudo').removeClass('carregando')
 });
