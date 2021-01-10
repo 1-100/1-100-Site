@@ -22,7 +22,12 @@
     </footer>
   </div>
   <div class="coluna">
-    <div class="thumb"><figure><img src="/formas/{{ $id }}/thumb.gif" alt="Animação com alguns passos da contagem de 1 a 100"></figure></div>
+    <!-- <div class="thumb"><figure><img src="/formas/{{ $id }}/thumb.gif" alt="Animação com alguns passos da contagem de 1 a 100"></figure></div> -->
+    <div class="slideshow">
+      {{ range $i, $sequence :=  (seq 100) }}
+        <div class="slide"><figure><img src="/formas/{{ $id }}/{{ $sequence }}.jpg"><figcaption>{{ $sequence }}</figcaption></figure></div>
+      {{ end }}
+    </div>
   </div>
 </div>
 <section class="secao galeria">

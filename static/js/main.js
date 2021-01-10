@@ -89,3 +89,17 @@ $(document).ready(function(){
       return false;
   });
 });
+
+// Slick Slider
+
+$(document).ready(function(){
+  $('.slideshow').slick({
+    autoplay: true,
+    autoplaySpeed: 30,
+    arrows: false,
+    infinite: true,
+    speed: 1,
+    fade: true,
+    cssEase: 'linear'
+  });
+});
