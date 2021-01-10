@@ -516,7 +516,7 @@ blockquote {
   width: 40px;
   height: 40px;
   -webkit-animation: pulse 1.5s ease-in-out infinite; /* Safari */
-  animation: pulse 2s linear infinite;
+  animation: pulse 1s linear infinite;
   margin: 0 auto;
   transition: all .2s ease-in-out;
 }
