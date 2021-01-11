@@ -386,10 +386,18 @@ blockquote {
   font-size: 1em;
 }
 
-.forma-introducao .thumb figure {
+.forma-introducao .thumb  {
   margin: 0;
-  border: 1px solid var(--cor-principal)
+  border: 1px solid var(--cor-principal);
+  
 }
+
+.forma-introducao .thumb video {
+  width: 100%;
+  display: block;
+  mix-blend-mode: multiply;
+}
+
 
 .forma-introducao .thumb img {
   width: 100%;
@@ -500,15 +508,13 @@ blockquote {
 
 .conteudo {
   opacity: 1;
-  transition: all 1s ease-in-out;
+  /* transition: all 1s ease-in-out; */
   overflow: hidden;
 }
 
 .carregando {
   opacity: 0;
-  
 }
-
 
 .loader {
   background-color: var(--cor-principal);
