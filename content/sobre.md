@@ -34,6 +34,8 @@ Este site foi construído usando o gerador de sites estáticos [Hugo](https://go
 
 Criação e otimização de arquivos GIFs com [ImageMagick](https://imagemagick.org/index.php) e [Gifsicle](https://www.lcdf.org/gifsicle/).
 
+Criação dos vídeos com [FFmpeg](https://ffmpeg.org/).
+
 Hospedagem no [GitHub Pages](https://pages.github.com/).
 
 {{% /coluna %}}
