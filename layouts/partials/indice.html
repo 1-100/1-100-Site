@@ -3,7 +3,7 @@
   {{ range where .Pages "Section" "formas" }}
     {{ range .Pages.ByTitle }}
 
-      <div class="item {{range .Params.Plataformas}} {{ . | urlize }}{{end}}">
+      <div class="item {{range .Params.Plataformas}} {{ . | urlize }}{{end}} {{range .Params.Autorias}} {{ . | urlize }}{{end}}">
         <article class="forma">
           <div class="capa"><img src="formas/{{.Title}}/thumb.jpg" alt=""></div>
           <div class="info">
