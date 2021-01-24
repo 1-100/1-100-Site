@@ -1,0 +1,35 @@
+{{ define "main" }}
+<div class="conteudo tabela-formas">
+  <h1>Lista de Formas</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Número</th>
+        <th>Descrição</th>
+        <th>Autoria</th>
+        <th>Links</th>
+        <th>Plataforma</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      {{ range .Pages.ByDate  }}
+
+      <tr>
+        <td><a href="{{.Permalink}}">{{.Title}}</a></td>
+        <td>{{.Params.Descricao}}</td>
+        <td>{{ delimit .Params.Autorias ", " }}</td>
+        <td>{{ delimit .Params.autorias_url ", " }}</td>
+        <td>{{ delimit .Params.Plataformas ", " }}</td>
+      </tr>
+
+      {{ end }}
+    </tbody>
+  </table>
+
+  
+
+
+</div>
+{{end}}

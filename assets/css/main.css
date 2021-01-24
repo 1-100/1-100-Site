@@ -541,3 +541,23 @@ blockquote {
           opacity: 0; }
 }
 
+/* Tabela Formas */
+
+table,
+table a {
+ font-size: 0.5rem;
+ line-height: 1.3em;
+ text-align: left;
+ border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #000;
+  padding: 0.2rem;
+}
+
+th {
+  text-transform: uppercase;
+  font-family: var(--fonte-principal);
+  font-weight: normal;
+}
