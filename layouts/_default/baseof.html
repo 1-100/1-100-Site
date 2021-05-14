@@ -4,7 +4,7 @@
 {{ partial "head.html" . }}
 <body>
   
-  <div class="pagina">
+  <div class="pagina {{ .Title | urlize }}">
 
   {{ partial "cabecalho.html" . }}
 

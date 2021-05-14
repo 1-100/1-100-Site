@@ -1,0 +1,5 @@
+<ul class="lista-filtros">
+{{ range .Site.Taxonomies.autorias }}
+    <li><a href="{{.Page.Permalink }}" class="botao" data-filter="{{.Page.Title | urlize }}">{{.Page.Title}}</a></li>
+{{ end }}
+</ul>

@@ -561,3 +561,13 @@ th {
   font-family: var(--fonte-principal);
   font-weight: normal;
 }
+
+/* Sobre */ 
+
+.sobre .secao {
+  margin-bottom: 0;
+}
+
+.sobre .secao .coluna:last-child {
+  margin-bottom: 0;
+}
