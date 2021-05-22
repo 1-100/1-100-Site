@@ -44,6 +44,6 @@ Hospedagem no [GitHub Pages](https://pages.github.com/).
 
 # Contribuições
 
-O projeto conta com [{{< formas_contagem >}} formas de contar](http://localhost:1313/formas/), abaixo uma lista de todas as pessoas que contribuiram enviando propostas:
+O projeto conta com [{{< formas_contagem >}} formas de contar](/formas), abaixo uma lista de todas as pessoas que contribuiram enviando propostas:
 
 {{< autorias >}}
