@@ -14,7 +14,7 @@ Você pode enviar mais de uma forma e ela pode ser feita em qualquer linguagem o
 
 ## Código
 
-1. A sua forma de contar deverá ser visual, ou seja o resultado do código deve ser uma imagem para cada um dos valores existentes entre 1 e 100.;
+1. A sua forma de contar deverá ser visual, ou seja o resultado do código deve ser uma imagem para cada um dos valores existentes entre 1 e 100;
 2. Sua proposta deve começar no 1 e terminar no 100, totalizando exatamente 100 imagens. O zero não deverá ser incluso na contagem;
 3. As imagens devem ser salvas com as seguintes especificações: arquivo JPEG, em escala de cinza e com as medidas de 500x500px.
 
