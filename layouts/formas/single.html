@@ -9,7 +9,7 @@
       <a href="https://github.com/1-100/1-100-Contribuicoes/tree/main/{{ $id }}/codigo" class="botao">Acessar código</a>
     </header>
     
-      <p>{{.Params.Descricao}}</p>
+      <p>{{ .Params.Descricao | markdownify }}</p>
       {{.Content}}
       <footer>
         <div class="creditos">
