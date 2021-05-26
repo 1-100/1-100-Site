@@ -14,6 +14,8 @@ O principal objetivo desse projeto é promover através de um exercício simples
 
 Este projeto colaborativo é uma iniciativa pessoal de [Guilherme Vieira](https://guilhermevieira.info), contou com opiniões e contribuições de amigos e da comunidade [Mastodon(te)](https://masto.donte.com.br) e é uma expansão do projeto [10 formas de contar de 1 – 10](https://www.norte.in/produto/01-10/).
 
+Mais informações sobre o projeto pode ser vistas na palestra apresentada no evento [Noite de Processing](https://www.youtube.com/watch?v=hjoILO9_oJQ).
+
 {{% /coluna %}}
 
 {{% coluna %}}
