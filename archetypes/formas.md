@@ -2,9 +2,9 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: false
-autorias: ["Nome da Pessoa"]
-plataformas: ["Plataforma 1", "Plataforma 2"]
+autorias: ["Guilherme Vieira"]
+plataformas: ["Processing"]
 descricao: "Descricao"
-autorias_url: ["https://sites.com"]
+autorias_url: ["https://guilhermevieira.info"]
 url: "/formas/{{ .File.BaseFileName }}"
 ---
