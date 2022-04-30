@@ -1,7 +1,7 @@
 <!-- Seção Indice -->
 <section id="indice" class="secao indice"  >
   {{ range where .Pages "Section" "formas" }}
-    {{ range .Pages.ByTitle }}
+    {{ range .Pages.ByTitle.Reverse }}
 
       <div class="item {{range .Params.Plataformas}} {{ . | urlize }}{{end}} {{range .Params.Autorias}} {{ . | urlize }}{{end}}">
         <article class="forma">
