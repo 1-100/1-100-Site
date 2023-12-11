@@ -3,9 +3,9 @@
 <div class="conteudo">
   {{.Content}}
 
-  {{ partial "filtros.html" . }}
+  {{ partialCached "filtros.html" . }}
   
-  {{ partial "indice.html" . }}
+  {{ partialCached "indice.html" . }}
 
 </div>
 {{end}}
