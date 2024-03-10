@@ -14,7 +14,7 @@ draft: false
 
 {{% coluna %}}
 
-Este site compila resultados da proposta aberta realizada para artistas, programadores, designers e quem tiver interesse em executar o seguinte exercício:
+Este site compila resultados da proposta aberta realizada em 22 de dezembro de 2020 para artistas, programadores, designers e quem tivesse interesse para executar o seguinte exercício:
 
 **Utilizando programação elaborar uma forma de visualizar uma contagem de 1 a 100.**
 
@@ -27,16 +27,12 @@ Na listagem abaixo você pode acessar diferentes respostas a esse exercício e t
 {{< secao >}}
 
 {{% coluna %}}
-    
-## Participe!
 
 {{% /coluna %}}
 
 {{% coluna %}}
 
-Atualmente o site conta com {{< formas_contagem >}} formas, se você quiser participar deste projeto clique no botão abaixo para obter mais informações
-
-{{< botao "Quero Participar" "/participe" >}}
+Em 10 de janeiro de 2024 o site chegou compilou as {{< formas_contagem >}} formas com a participação de 31 pessoas.
     
 {{% /coluna %}}
 
