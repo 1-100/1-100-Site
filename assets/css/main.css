@@ -571,3 +571,71 @@ th {
 .sobre .secao .coluna:last-child {
   margin-bottom: 0;
 }
+
+/* Impresso */
+
+.impresso img {
+  mix-blend-mode: normal;
+  display: block;
+  max-width: 100%;
+}
+
+.impresso .secao  {
+  margin-bottom: 0;
+}
+
+.tns-outer {
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.tns-outer button {
+  font-family: var(--fonte-principal);
+  font-size: 0.8rem;
+  border: 1px solid var(--cor-principal);
+  border-radius: 1rem;
+  background-color: var(--cor-secundaria);
+  padding: 0.15rem 0.9rem 0.2rem 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background-color .2s ease-in-out;
+  display: inline-block;
+  line-height: 1em;
+  text-align: center;
+}
+
+.tns-outer button:hover,
+.tns-outer button:focus,
+.tns-outer button.ativo {
+  background-color: var(--cor-principal);
+  color: var(--cor-secundaria);
+  cursor: pointer;
+}
+
+.tns-controls {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0.5rem;
+}
+
+.slider-wrapper {
+  position: relative;
+}
+
+.slider-wrapper .botao {
+  background: var(--cor-secundaria);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.5rem;
+}
+
+
+.slider-wrapper .botao:hover,
+.slider-wrapper .botao:focus,
+.slider-wrapper .botao.ativo {
+  background-color: var(--cor-principal);
+  color: var(--cor-secundaria);
+  cursor: pointer;
+}

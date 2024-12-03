@@ -8,6 +8,11 @@ draft: false
 
 {{% coluna %}}
 
+
+## As participações foram encerradas Março de 2024.
+
+## — 
+
 Para participar é simples, basta seguir as orientações desta página.
 
 Você pode enviar mais de uma forma e ela pode ser feita em qualquer linguagem ou ferramenta de sua preferência. Só lembre de enviar cada um dos seus projetos separadamente.

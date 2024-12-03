@@ -40,6 +40,8 @@ Criação dos vídeos com [FFmpeg](https://ffmpeg.org/).
 
 Hospedagem no [GitHub Pages](https://pages.github.com/).
 
+Converção dos arquivos HTML em PDF com [paged.js](https://pagedjs.org/).
+
 {{% /coluna %}}
 
 {{< /secao >}}
