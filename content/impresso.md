@@ -54,24 +54,24 @@ Os arquivos originais estão disponíveis neste [link](http://etc.guilhermevieir
 
 <section class="secao colunas">  
   <div class="coluna">
-    <h2 id="edição-especial">Edição especial</h2>
+    <h2 id="edição-especial">Edição especial: R$85</h2>
     <div class="slider-wrapper">
     <div class="slider">
       <div><img src="/images/1a100-Fotos-Versao2-06.jpg"></div>
       <div><img src="/images/1a100-Fotos-Versao2-09.jpg"></div>
       <div><img src="/images/1a100-Fotos-Versao2-10.jpg"></div>
     </div>
-    <a href="/impresso" class="botao">Comprar Especial</a>
+    <a href="https://sacola.pagbank.com.br/8a8d2c03-e7d5-4e77-811e-7e0a85cecb0a" class="botao">Comprar Especial</a>
     </div>
   </div>
   <div class="coluna">
-    <h2 id="edição-simples">Edição simples</h2>
+    <h2 id="edição-simples">Edição simples: R$40</h2>
     <div class="slider-wrapper">
     <div class="slider">
       <div><img src="/images/1a100-Fotos-Versao3-02.jpg"></div>
       <div><img src="/images/1a100-Fotos-Versao3-04.jpg"></div>
     </div>
-    <a href="/impresso" class="botao">Comprar Simples</a>
+    <a href="https://sacola.pagbank.com.br/e807dcd7-009b-4491-bcfd-d8f281d1ba48" class="botao">Comprar Simples</a>
     </div>
   </div>
 </section>
