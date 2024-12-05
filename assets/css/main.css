@@ -614,29 +614,26 @@ th {
 
 .tns-controls {
   position: absolute;
-  bottom: 0;
+  top: 0;
   right: 0;
   padding: 0.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
-.slider-wrapper {
-  position: relative;
+.compra-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
 }
 
-.slider-wrapper .botao {
-  background: var(--cor-secundaria);
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  margin: 0.5rem;
-  /* font-size: 1rem; */
+.compra-wrapper h2 {
+  margin-bottom: 0;
 }
 
-
-.slider-wrapper .botao:hover,
-.slider-wrapper .botao:focus,
-.slider-wrapper .botao.ativo {
-  background-color: var(--cor-principal);
-  color: var(--cor-secundaria);
-  cursor: pointer;
+.compra-wrapper a.botao {
+  font-size: 1.2rem;
 }
+
