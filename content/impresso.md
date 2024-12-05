@@ -34,6 +34,8 @@ Os arquivos originais estão disponíveis neste [link](http://etc.guilhermevieir
 
 ![Publicação impressa 100 formas de contar de 1 a 100](/images/1a100-Fotos-Versao2-03.jpg)
 
+![Publicação impressa 100 formas de contar de 1 a 100](/images/1a100-Fotos-Versao2-08.jpg)
+
 ![Publicação impressa 100 formas de contar de 1 a 100](/images/1a100-Fotos-Versao2-04.jpg)
 
 ![Publicação impressa 100 formas de contar de 1 a 100](/images/1a100-Fotos-Versao2-12.jpg)
