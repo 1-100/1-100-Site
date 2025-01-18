@@ -63,8 +63,7 @@ Os arquivos originais estão disponíveis neste [link](http://etc.guilhermevieir
       <div><img src="/images/1a100-Fotos-Versao2-10.jpg"></div>
     </div>
     <div class="compra-wrapper">
-      <h2>R$85</h2>
-      <a href="https://sacola.pagbank.com.br/732dc830-c8c0-4b22-a5d3-65087e97778e" class="botao" target="_blank">Comprar</a>
+      <h2>Esgotada</h2>
     </div>
   </div>  
   <div class="coluna">
